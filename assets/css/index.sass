@@ -14,6 +14,10 @@ body > header
   background: $dark
   color: $light
   border-bottom: 1px solid reduce(14)
+  position: fixed
+  top: 0
+  width: 100%
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px
 
 {% else %}
 
@@ -28,5 +32,8 @@ body > footer
   box-shadow: 0 0 .6em rgba($dark, 0.04) inset
   border-top: 1px solid reduce(14)
   opacity: .9
-body > blockquote, body > p, body > hr, body > h1, body > h2, body > h3, body > h4, body > h5, body > ul, 
+body > blockquote, body > p, body > hr, body > ul
     padding: 0 20%
+body > h1, body > h2, body > h3, body > h4, body > h5
+    padding: 0 16%
+  
