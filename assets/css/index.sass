@@ -2,7 +2,6 @@
 ---
 
 @import index, font, basic, layout, classes
-
 $font-cursive: 'Indie Flower', cursive
 $font-classic: 'Pacifico', cursive
 $font-main: Arial, sans-serif
@@ -14,50 +13,51 @@ $color-blockquote-border: #ccc
 $breakpoint-mobile: 768px
 
 body {
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-family: $font-main
+  line-height: 1.6
+  margin: 0
+  padding: 0
+  box-sizing: border-box
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: $color-background;
-  color: $color-text;
-  padding: 10px 20px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background: $color-background
+  color: $color-text
+  padding: 10px 20px
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 1000
 
   h1 {
-    font-family: $font-classic;
+    font-family: $font-classic
   }
 
   .menu-icon {
-    display: none;
-    cursor: pointer;
+    display: none
+    cursor: pointer
   }
 }
 
 nav {
-  display: flex;
+  display: flex
 
   ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex
+    list-style: none
+    margin: 0
+    padding: 0
 
     li {
-      margin: 0 10px;
+      margin: 0 10px
 
       a {
-        color: $color-text;
-        text-decoration: none;
-        font-weight: bold;
+        color: $color-text
+        text-decoration: none
+        font-weight: bold
       }
     }
   }
@@ -65,85 +65,83 @@ nav {
 
 @media (max-width: $breakpoint-mobile) {
   nav {
-    display: none;
-    flex-direction: column;
-    background: darken($color-background, 10%);
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    border-radius: 5px;
+    display: none
+    flex-direction: column
+    background: darken($color-background, 10%)
+    position: absolute
+    top: 60px
+    right: 0
+    width: 200px
+    border-radius: 5px
 
     ul {
-      flex-direction: column;
+      flex-direction: column
 
       li {
-        margin: 10px;
+        margin: 10px
       }
     }
   }
 
   .menu-icon {
-    display: block;
+    display: block
   }
 }
 
 main {
-  padding: 80px 20px;
-  max-width: 800px;
-  margin: auto;
+  padding: 80px 20px
+  max-width: 800px
+  margin: auto
 }
 
 h1, h2, h3, h4, h5 {
-  margin-bottom: 10px;
+  margin-bottom: 10px
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.5rem
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2rem
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.75rem
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.5rem
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.25rem
 }
 
 blockquote {
-  font-family: $font-cursive;
-  font-size: 1.5rem;
-  background: $color-blockquote-bg;
-  border-left: 10px solid $color-blockquote-border;
-  padding: 10px 20px;
-  margin: 20px 0;
+  font-family: $font-cursive
+  font-size: 1.5rem
+  background: $color-blockquote-bg
+  border-left: 10px solid $color-blockquote-border
+  padding: 10px 20px
+  margin: 20px 0
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%
+  height: auto
 }
 
 ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: disc
+  padding-left: 20px
 }
 
 a {
-  color: $color-link;
-  text-decoration: none;
+  color: $color-link
+  text-decoration: none
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: underline
   }
 }
-
-
