@@ -5,8 +5,6 @@ Steve Jobs' **2005 Stanford Commencement Speech** has been the most impactful sp
 
 ---
 
-![Ali Nikkhah](image.jpg)
-
 ## **Academic Study**
 ### **Education**
 - **Sharif University of Technology** *(Sep 2020 - Present)*  
@@ -112,13 +110,11 @@ Steve Jobs' **2005 Stanford Commencement Speech** has been the most impactful sp
 
 ---
 
-### _Connect with me on_  
+### _Connect with me on_  ###
 
 
 📧 **Email**: [alinkkh9@gmail.com](mailto:alinkkh9@gmail.com)  
 🔗 **GitHub**: [github.com/alinikkhah2001](https://github.com/alinikkhah2001)  
 🔗 **LinkedIn**: [linkedin.com/in/alinikkhah2001](https://www.linkedin.com/in/alinikkhah2001)  
 🌐 **Personal Webpage**: [alinikkhah.ir](http://alinikkhah.ir)  
-
----
 
