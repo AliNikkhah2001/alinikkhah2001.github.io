@@ -13,7 +13,7 @@ body
 body > header, body > footer
   background: lighten($dark, 5%)
   color: $light
-  backdrop-filter: blur(10px)  // Added background blur
+  backdrop-filter: blur(50px)  // Added background blur
   position: fixed
   width: 100%
   z-index: 1000
@@ -44,13 +44,7 @@ nav > a
   font-weight: bold
   padding: 10px
 
-@media (min-width: 768px)
-  nav
-    display: flex
-    flex-direction: row
-    position: static
-    background: none
-    width: auto
+
 
 @media (min-width: 32em)
   body > header, body > article, body > footer
