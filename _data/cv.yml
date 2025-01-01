@@ -2,31 +2,29 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Ali Nikkhah
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26 September 2001
     - name: Languages
-      value: English, German
+      value: English, Persian, Arabic, German, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Engineering, Electrical Engineering
+      institution: Sharif University of Technology
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Digital Systems Specilization
+        - Spread Time CDMA ASICs Chip Design
+        - title: Teaching Assitance
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Electrical Circuits 1,2
+            - Analog Electronics 1,2
+            - Generative Models
+            - Foundations of Datascience
+            - Machine Learning
+            - Deep Learning
 
 - title: Experience
   type: time_table
