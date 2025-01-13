@@ -4,20 +4,20 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - Research_SpreadTimeCDMA
-  - Research_VideoClassification
-  - Research_TimeSeriesInvestment
-  - Research_SemEval2025
-  - Research_Spoiler
-  - EESUT_DeepLearning
-  - CSSUT_NaturalLanguageProcessing
-  - EESUT_MachineLearning
-  - EESUT_DataScience
-  - EESUT_RealTimeEmbedded
-  - EESUT_Generatives
-  - EESUT_ReinforcementLearning
-  - EESUT_VLSI
-  - EESUT_ComputerInterfaces
-  - EESUT_ComputerArchitecture
-  - EESUT_ParallelProgramming
-  - EESUT_LinearAlgebra
+  - alinikkhah2001/Research_SpreadTimeCDMA
+  - alinikkhah2001/Research_VideoClassification
+  - alinikkhah2001/Research_TimeSeriesInvestment
+  - alinikkhah2001/Research_SemEval2025
+  - alinikkhah2001/Research_Spoiler
+  - alinikkhah2001/EESUT_DeepLearning
+  - alinikkhah2001/CSSUT_NaturalLanguageProcessing
+  - alinikkhah2001/EESUT_MachineLearning
+  - alinikkhah2001/EESUT_DataScience
+  - alinikkhah2001/EESUT_RealTimeEmbedded
+  - alinikkhah2001/EESUT_Generatives
+  - alinikkhah2001/EESUT_ReinforcementLearning
+  - alinikkhah2001/EESUT_VLSI
+  - alinikkhah2001/EESUT_ComputerInterfaces
+  - alinikkhah2001/EESUT_ComputerArchitecture
+  - alinikkhah2001/EESUT_ParallelProgramming
+  - alinikkhah2001/EESUT_LinearAlgebra
