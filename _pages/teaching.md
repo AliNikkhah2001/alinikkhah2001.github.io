@@ -1,12 +1,27 @@
 ---
 layout: page
 permalink: /teaching/
-title: TA
+title: Teaching 
 description: 
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Circuit Theory 1 & 2 Head Teaching Assistant · Developed and graded exams and assignments
+· Assisted in creating educational materials (homework, slides)
+Dr. Siavash Bayat
 
-Organize your courses by years, topics, or universities, however you like!
+Generative Models 
+Teaching Assistant Sharif University 
+· Developed and graded exams and assignments
+· Mentored students on final course projects
+Dr. Sajjad Amini
+
+Analog Electronics 1, 2, 3 
+Teaching Assistant Sharif University
+· Developed and graded exams and assignments
+Dr. Fatemeh Akbar
+
+Foundations of Data Science 
+Teaching Assistant Sharif University 
+Prof. Babak Khalaj

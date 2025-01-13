@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='mailto:alinkkh9@gmail.com'>Contact me Now!</a> Sharif University of Technology, Azadi, Tehran, Iran
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>AI Researcher / Enthusiast</p>
+    <p>Bachelor's of Electrical Engineering Graduate, Sharif University of Technology </p>
+    <p>Tehran, Iran</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Welcome to my personal webpage! I'm a 22-year-old engineering student at Sharif University of Technology, specializing in digital systems within the field of electrical engineering. 
+From a young age, I’ve been captivated by problem-solving and engineering, starting my programming journey even before mastering writing in my native language. 
+My passion lies in research areas like artificial intelligence, computer vision, and natural language processing, as well as the design and implementation of digital systems, including ASICs and FPGAs. 
+I’ve collaborated on diverse projects such as Spread Time CDMA digital chip design, texture-free video classification using transformers, and multi-agent reinforcement learning algorithms for investment strategies. 
+Alongside, I’ve had the privilege of working as a research and teaching assistant for esteemed professors. 
+Currently, I’m seeking PhD opportunities to deepen my journey in impactful research and contribute meaningfully to the world.
