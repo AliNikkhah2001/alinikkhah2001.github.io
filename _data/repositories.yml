@@ -4,10 +4,11 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - SpreadTimeCDMA
-  - VideoClassification
-  - SemEval
-  - Spoiler
+  - Research_SpreadTimeCDMA
+  - Research_VideoClassification
+  - Research_TimeSeriesInvestment
+  - Research_SemEval2025
+  - Research_Spoiler
   - EESUT_DeepLearning
   - CSSUT_NaturalLanguageProcessing
   - EESUT_MachineLearning
@@ -18,3 +19,5 @@ github_repos:
   - EESUT_VLSI
   - EESUT_ComputerInterfaces
   - EESUT_ComputerArchitecture
+  - EESUT_ParallelProgramming
+  - EESUT_LinearAlgebra
