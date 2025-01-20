@@ -1,31 +1,144 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Ali Nikkhah
-    - name: Date of Birth
-      value: 26 September 2001 
-    - name: Languages
-      value: Persian (Native), English (Expert level, fully operational command of the language)
-    - name: Nationality, Address
-      value: Iranian, Tehran, Iran
+basics:
+  name: "Ali Nikkhah"
+  label: "Researcher"
+  email: "alinikkhah.application@gmail.com"
+  url: "alinikkhah2001.github.io"
+  profiles:
+    - network: "LinkedIn"
+      url: "https://www.linkedin.com/in/alinikkhah2001/"
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Engineering, Electrical Engineering
-      institution: Sharif University of Technology
-      year: 2025
-      description:
-        - Digital Systems Specilization
-        - Spread Time CDMA ASICs Chip Design
-        - title: Teaching Assitance
-          contents:
-            - Electrical Circuits 1,2
-            - Analog Electronics 1,2
-            - Generative Models
-            - Foundations of Datascience
-            - Machine Learning
-            - Deep Learning
-            - Natural Language Processing
+interests:
+  - "Artificial Intelligence"
+  - "Computer Vision & Generative Models"
+  - "Natural Language Processing & Vision-Language Models"
+  - "Digital Electronics"
+  - "Embedded Systems & IoT"
+  - "ASIC Design & FPGA"
 
+education:
+  - institution: "Sharif University of Technology"
+    area: "Electrical Engineering"
+    specialization: "Digital Systems"
+    startDate: "2020-09"
+    gpa: "3.76"
+    gpaSpecialized: "3.91"
+  - institution: "Iranian University Entrance Exam (Konkoor)"
+    summary: "Ranked 14th in Mathematics & Physics entrance exam; Top 0.01% of candidates"
+    date: "2020-08"
+
+skills:
+  - name: "Languages"
+    keywords:
+      - "IELTS Band 8.0 (Listening 9.0, Reading 9.0, Writing 7.0, Speaking 7.5)"
+  - name: "Hardware"
+    keywords:
+      - "Verilog"
+      - "VHDL"
+      - "HSpice"
+      - "Matlab"
+  - name: "Deep Learning"
+    keywords:
+      - "PyTorch"
+      - "TensorFlow"
+      - "Keras"
+      - "OpenCV"
+      - "Scikit-learn"
+  - name: "Visualization"
+    keywords:
+      - "Metabase"
+      - "Grafana"
+      - "Power BI"
+      - "TensorBoard"
+      - "Matplotlib"
+      - "Seaborn"
+  - name: "Big Data"
+    keywords:
+      - "PySpark"
+      - "Luigi"
+      - "Pandas"
+      - "Numpy"
+      - "Spark"
+      - "Scala"
+  - name: "CI/CD & Orchestration"
+    keywords:
+      - "GitLab"
+      - "Docker"
+      - "Kubernetes"
+
+courses:
+  - type: "Online"
+    courses:
+      - "Parallel Programming and Big Data Analysis (EPFL)"
+      - "Machine Learning Specialization (DeepLearning.ai)"
+      - "Deep Learning Specialization (DeepLearning.ai)"
+      - "Introduction to Self-Driving Cars (University of Toronto)"
+      - "Mathematical Concepts of Machine Learning (Imperial College London)"
+  - type: "University"
+    courses:
+      - "Deep Learning"
+      - "Machine Learning"
+      - "Foundations of Data Science"
+      - "Natural Language Processing"
+      - "ASICs & FPGA"
+      - "Microcontrollers"
+      - "Real-Time Embedded Systems"
+      - "Analog Electronics"
+
+work:
+  - position: "Research Assistant"
+    institution: "Sharif University"
+    project: "Spread Time CDMA Transceiver Chip"
+    startDate: "2022-12"
+    highlights:
+      - "Investigated methods for implementing and optimizing FFT, Register banks, FIR Filters, and SPI"
+      - "Developed Verilog code for modules and tested using simulation testbenches"
+      - "Programmed FPGA and validated the correctness and precision of outputs"
+      - "Implemented and tested ASIC modules"
+  - position: "Research Assistant"
+    project: "Multi-Agent Reinforcement Learning for Investment"
+    advisor: "Dr. Amir Mirzaenia"
+    startDate: "2023-04"
+    highlights:
+      - "Worked on various multi-agent reinforcement learning algorithms"
+      - "Investigated strategies to mitigate catastrophic forgetting in RL models"
+  - position: "Researcher"
+    institution: "L3S Research Center"
+    project: "Video Action Classification Using Transformer-Based Methods"
+    startDate: "2023-11"
+    highlights:
+      - "Worked on reducing background and texture dependency in video classifiers"
+      - "Investigated appearance-free classification using transformer models"
+
+teaching:
+  - course: "Circuit Theory 1 & 2"
+    role: "Head Teaching Assistant"
+    advisor: "Dr. Siavash Bayat"
+    highlights:
+      - "Developed and graded exams and assignments"
+      - "Assisted in creating educational materials"
+  - course: "Generative Models"
+    role: "Teaching Assistant"
+    advisor: "Dr. Sajjad Amini"
+    highlights:
+      - "Developed and graded exams and assignments"
+      - "Mentored students on final course projects"
+  - course: "Analog Electronics 1, 2, 3"
+    role: "Teaching Assistant"
+    advisor: "Dr. Fatemeh Akbar"
+    highlights:
+      - "Developed and graded exams and assignments"
+  - course: "Foundations of Data Science"
+    role: "Teaching Assistant"
+    advisor: "Prof. Babak Khalaj"
+    highlights: []
+
+references:
+  - name: "Prof. Babak Khalaj"
+    institution: "Sharif University"
+    url: "https://sharif.edu/~khalaj/"
+  - name: "Dr. Fatemeh Akbar"
+    institution: "Sharif University"
+    url: "https://sina.sharif.edu/~fakbar/"
+  - name: "Dr. Amir Mirzaenia"
+    institution: "University of North Texas"
+    url: "https://engineering.unt.edu/people/amir-mirzaeinia.html"
