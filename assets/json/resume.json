@@ -12,12 +12,14 @@
       ]
     },
     "interests": [
-      "Artificial Intelligence",
-      "Computer Vision & Generative Models",
-      "Natural Language Processing & Vision-Language Models",
-      "Digital Electronics",
-      "Embedded Systems & IoT",
-      "ASIC Design & FPGA"
+      {
+        "name": "Artificial Intelligence",
+        "keywords": [      "Computer Vision", "Natural Language Processing & Vision-Language Models"," Generative Models"]
+      },
+      {
+        "name": "Digital Electronics",
+        "keywords": [      "Embedded Systems & IoT", "ASIC Design & FPGA"]
+      }
     ],
     "education": [
       {
