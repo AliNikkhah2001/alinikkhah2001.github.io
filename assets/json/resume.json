@@ -68,7 +68,7 @@
       "keywords": ["NextJS", "Node.js", "Django", "Java", "Spring Boot", "FastAPI", "Express.js"]
     }
   ],
-  "work": [
+  "work experience": [
     {
       "name": "MapnaMD2",
       "position": "Fullstack Developer",
@@ -85,7 +85,6 @@
       "summary": "Implemented a multi-node, multi-GPU workplace for JupyterHub users, optimizing distributed computing performance."
     }
   ],
-  "research_experience": [
   "research experience": [
     {
       "position": "Research Assistant",
