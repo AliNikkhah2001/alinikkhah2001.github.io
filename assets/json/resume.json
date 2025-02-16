@@ -1,198 +1,159 @@
 {
   "basics": {
-  "name": "Ali Nikkhah",
-  "label": "Researcher & Fullstack Developer",
-  "email": "alinikkhah.application@gmail.com",
-  "url": "alinikkhah2001.github.io",
-  "profiles": [
-  {
-  "network": "LinkedIn",
-  "url": "https://www.linkedin.com/in/alinikkhah2001/"
-  }
-  ]
+    "name": "Ali Nikkhah",
+    "label": "Researcher",
+    "email": "alinikkhah.application@gmail.com",
+    "url": "https://alinikkhah2001.github.io",
+    "summary": "Experienced researcher in AI/ML, digital electronics, and full-stack development, specializing in deep learning, FPGA/ASIC design, and scalable software architectures.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alinikkhah2001/"
+      }
+    ]
   },
   "interests": [
-  {
-  "name": "Artificial Intelligence",
-  "keywords": ["Computer Vision", "Natural Language Processing & Vision-Language Models", "Generative Models"]
-  },
-  {
-  "name": "Digital Electronics",
-  "keywords": ["Embedded Systems & IoT", "ASIC Design & FPGA"]
-  }
+    {
+      "name": "Artificial Intelligence",
+      "keywords": ["Computer Vision", "Natural Language Processing & Vision-Language Models", "Generative Models"]
+    },
+    {
+      "name": "Digital Electronics",
+      "keywords": ["Embedded Systems & IoT", "ASIC Design & FPGA"]
+    }
   ],
   "education": [
-  {
-  "institution": "Sharif University of Technology",
-  "area": "Electrical Engineering",
-  "specialization": "Digital Systems",
-  "startDate": "2020-09",
-  "gpa": "3.76",
-  "gpaSpecialized": "3.91"
-  },
-  {
-  "institution": "Iranian University Entrance Exam (Konkoor)",
-  "summary": "Ranked 14th in Mathematics & Physics entrance exam; Top 0.01% of candidates",
-  "date": "2020-08"
-  }
+    {
+      "institution": "Sharif University of Technology",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor",
+      "specialization": "Digital Systems",
+      "startDate": "2020-09",
+      "gpa": "3.76",
+      "gpaSpecialized": "3.91"
+    },
+    {
+      "institution": "Iranian University Entrance Exam (Konkoor)",
+      "summary": "Ranked 14th in Mathematics & Physics entrance exam; Top 0.01% of candidates",
+      "date": "2020-08"
+    }
   ],
   "skills": [
-  {
-  "name": "Languages",
-  "keywords": ["IELTS Band 8.0 (Listening 9.0, Reading 9.0, Writing 7.0, Speaking 7.5)"]
-  },
-  {
-  "name": "Hardware",
-  "keywords": ["Verilog", "VHDL", "HSpice", "Matlab"]
-  },
-  {
-  "name": "Deep Learning",
-  "keywords": ["PyTorch", "TensorFlow", "Keras", "OpenCV", "Scikit-learn"]
-  },
-  {
-  "name": "Visualization",
-  "keywords": ["Metabase", "Grafana", "Power BI", "TensorBoard", "Matplotlib", "Seaborn"]
-  },
-  {
-  "name": "Big Data",
-  "keywords": ["PySpark", "Luigi", "Pandas", "Numpy", "Spark", "Scala"]
-  },
-  {
-  "name": "CI/CD & Orchestration",
-  "keywords": ["GitLab", "Docker", "Kubernetes"]
-  },
-  {
-  "name": "Full Stack Development",
-  "keywords": ["NextJS", "Node.js", "Django", "Java", "Spring Boot", "FastAPI", "Express.js"]
-  }
+    {
+      "name": "Languages",
+      "keywords": ["IELTS Band 8.0 (Listening 9.0, Reading 9.0, Writing 7.0, Speaking 7.5)"]
+    },
+    {
+      "name": "Hardware",
+      "keywords": ["Verilog", "VHDL", "HSpice", "Matlab"]
+    },
+    {
+      "name": "Deep Learning",
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "OpenCV", "Scikit-learn"]
+    },
+    {
+      "name": "Visualization",
+      "keywords": ["Metabase", "Grafana", "Power BI", "TensorBoard", "Matplotlib", "Seaborn"]
+    },
+    {
+      "name": "Big Data",
+      "keywords": ["PySpark", "Luigi", "Pandas", "Numpy", "Spark", "Scala"]
+    },
+    {
+      "name": "CI/CD & Orchestration",
+      "keywords": ["GitLab", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Full Stack Development",
+      "keywords": ["NextJS", "Node.js", "Django", "Java", "Spring Boot", "FastAPI", "Express.js"]
+    }
   ],
-  "courses": [
-  {
-  "type": "Online",
-  "courses": [
-  "Parallel Programming and Big Data Analysis (EPFL)",
-  "Machine Learning Specialization (DeepLearning.ai)",
-  "Deep Learning Specialization (DeepLearning.ai)",
-  "Introduction to Self-Driving Cars (University of Toronto)",
-  "Mathematical Concepts of Machine Learning (Imperial College London)"
-  ]
-  },
-  {
-  "type": "University",
-  "courses": [
-  "Deep Learning",
-  "Machine Learning",
-  "Foundations of Data Science",
-  "Natural Language Processing",
-  "ASICs & FPGA",
-  "Microcontrollers",
-  "Real-Time Embedded Systems",
-  "Analog Electronics"
-  ]
-  }
+  "work": [
+    {
+      "name": "MapnaMD2",
+      "position": "Fullstack Developer",
+      "summary": "Designed and implemented an integrated Content Management System using Django and NextJS. Developed efficient backend APIs and dynamic frontend interfaces."
+    },
+    {
+      "name": "Homa Cloud",
+      "position": "Fullstack Developer",
+      "summary": "Developed backend services and API integrations for a cloud-based platform, utilizing Node.js and Django to optimize performance and scalability."
+    },
+    {
+      "name": "Homa Cloud",
+      "position": "MLOps Developer",
+      "summary": "Implemented a multi-node, multi-GPU workplace for JupyterHub users, optimizing distributed computing performance."
+    }
   ],
   "research_experience": [
-  {
-  "position": "Research Assistant",
-  "institution": "Sharif University",
-  "project": "Spread Time CDMA Transceiver Chip",
-  "startDate": "2022-12",
-  "highlights": [
-  "Investigated methods for implementing and optimizing FFT, Register banks, FIR Filters, and SPI",
-  "Developed Verilog code for modules and tested using simulation testbenches",
-  "Programmed FPGA and validated the correctness and precision of outputs",
-  "Implemented and tested ASIC modules"
-  ]
-  },
-  {
-  "position": "Research Assistant",
-  "project": "Multi-Agent Reinforcement Learning for Investment",
-  "advisor": "Dr. Amir Mirzaenia",
-  "startDate": "2023-04",
-  "highlights": [
-  "Worked on various multi-agent reinforcement learning algorithms",
-  "Investigated strategies to mitigate catastrophic forgetting in RL models"
-  ]
-  },
-  {
-  "position": "Researcher",
-  "institution": "L3S Research Center",
-  "project": "Video Action Classification Using Transformer-Based Methods",
-  "startDate": "2023-11",
-  "highlights": [
-  "Worked on reducing background and texture dependency in video classifiers",
-  "Investigated appearance-free classification using transformer models"
-  ]
-  }
-  ],
-  "work_experience": [
-  {
-  "company": "MapnaMD2",
-  "title": "Fullstack Developer",
-  "description": "Design and Implementation of an integrated Content Management System using Django and NextJS."
-  },
-  {
-  "company": "Homa Cloud",
-  "title": "Fullstack Developer",
-  "description": "Developed backend services and API integrations for a cloud-based platform, utilizing Node.js and Django to optimize performance and scalability."
-  },
-  {
-  "company": "Homa Cloud",
-  "title": "MLOps Developer",
-  "description": "Implemented a multi-node, multi-GPU workplace for JupyterHub users, optimizing distributed computing performance."
-  }
+    {
+      "position": "Research Assistant",
+      "institution": "Sharif University",
+      "project": "Spread Time CDMA Transceiver Chip",
+      "startDate": "2022-12",
+      "highlights": [
+        "Investigated methods for implementing and optimizing FFT, Register banks, FIR Filters, and SPI",
+        "Developed Verilog code for modules and tested using simulation testbenches",
+        "Programmed FPGA and validated the correctness and precision of outputs",
+        "Implemented and tested ASIC modules"
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "project": "Multi-Agent Reinforcement Learning for Investment",
+      "advisor": "Dr. Amir Mirzaenia",
+      "startDate": "2023-04",
+      "highlights": [
+        "Worked on various multi-agent reinforcement learning algorithms",
+        "Investigated strategies to mitigate catastrophic forgetting in RL models"
+      ]
+    },
+    {
+      "position": "Researcher",
+      "institution": "L3S Research Center",
+      "project": "Video Action Classification Using Transformer-Based Methods",
+      "startDate": "2023-11",
+      "highlights": [
+        "Worked on reducing background and texture dependency in video classifiers",
+        "Investigated appearance-free classification using transformer models"
+      ]
+    }
   ],
   "teaching": [
-  {
-  "course": "Circuit Theory 1 & 2",
-  "role": "Head Teaching Assistant",
-  "advisor": "Dr. Siavash Bayat",
-  "highlights": [
-  "Developed and graded exams and assignments",
-  "Assisted in creating educational materials"
-  ]
-  },
-  {
-  "course": "Generative Models",
-  "role": "Teaching Assistant",
-  "advisor": "Dr. Sajjad Amini",
-  "highlights": [
-  "Developed and graded exams and assignments",
-  "Mentored students on final course projects"
-  ]
-  },
-  {
-  "course": "Analog Electronics 1, 2, 3",
-  "role": "Teaching Assistant",
-  "advisor": "Dr. Fatemeh Akbar",
-  "highlights": [
-  "Developed and graded exams and assignments"
-  ]
-  },
-  {
-  "course": "Foundations of Data Science",
-  "role": "Teaching Assistant",
-  "advisor": "Prof. Babak Khalaj",
-  "highlights": []
-  }
+    {
+      "course": "Circuit Theory 1 & 2",
+      "role": "Head Teaching Assistant",
+      "advisor": "Dr. Siavash Bayat",
+      "highlights": [
+        "Developed and graded exams and assignments",
+        "Assisted in creating educational materials"
+      ]
+    },
+    {
+      "course": "Generative Models",
+      "role": "Teaching Assistant",
+      "advisor": "Dr. Sajjad Amini",
+      "highlights": [
+        "Developed and graded exams and assignments",
+        "Mentored students on final course projects"
+      ]
+    }
   ],
   "references": [
-  {
-  "name": "Prof. Babak Khalaj",
-  "institution": "Sharif University",
-  "url": "https://sharif.edu/~khalaj/"
-  },
-  {
-  "name": "Dr. Fatemeh Akbar",
-  "institution": "Sharif University",
-  "url": "https://sina.sharif.edu/~fakbar/"
-  },
-  {
-  "name": "Dr. Amir Mirzaenia",
-  "institution": "University of North Texas",
-  "url": "https://engineering.unt.edu/people/amir-mirzaeinia.html"
-  }
+    {
+      "name": "Prof. Babak Khalaj",
+      "institution": "Sharif University",
+      "url": "https://sharif.edu/~khalaj/"
+    },
+    {
+      "name": "Dr. Fatemeh Akbar",
+      "institution": "Sharif University",
+      "url": "https://sina.sharif.edu/~fakbar/"
+    },
+    {
+      "name": "Dr. Amir Mirzaenia",
+      "institution": "University of North Texas",
+      "url": "https://engineering.unt.edu/people/amir-mirzaeinia.html"
+    }
   ]
-  }
-  
-  
+}
