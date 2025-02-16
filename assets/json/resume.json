@@ -131,11 +131,27 @@
     },
     {
       "course": "Generative Models",
-      "role": "Teaching Assistant",
+      "role": "Research/Homework Teaching Assistant",
       "advisor": "Dr. Sajjad Amini",
       "highlights": [
-        "Developed and graded exams and assignments",
-        "Mentored students on final course projects"
+        "Designed and graded theoretical and simulation homeworks"
+      ]
+    },
+    {
+      "course": "Natural Language Processing",
+      "role": "Teaching Assistant for Projects",
+      "advisor": "Dr. Ehsan Asgari",
+      "highlights": [
+        "Designing and grading projects",
+        "Holding TA sessions"
+      ]
+    },
+    {
+      "course": "Foundations of Data Science",
+      "role": "Teaching Assistant",
+      "advisor": "Dr. Babak Khalaj",
+      "highlights": [
+        "Designing and grading homeworks"
       ]
     }
   ],
