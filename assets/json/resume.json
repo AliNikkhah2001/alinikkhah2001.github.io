@@ -65,16 +65,32 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "keywords": ["NextJS", "Node.js", "Django", "FastAPI", "Express.js"]
+      "name": "Languages",
+      "keywords": ["IELTS Band 8.0 (Listening 9.0, Reading 9.0, Writing 7.0, Speaking 7.5)"]
+    },
+    {
+      "name": "Hardware",
+      "keywords": ["Verilog", "VHDL", "HSpice", "Matlab"]
     },
     {
       "name": "Deep Learning",
       "keywords": ["PyTorch", "TensorFlow", "Keras", "OpenCV", "Scikit-learn"]
     },
     {
-      "name": "Hardware Design",
-      "keywords": ["Verilog", "VHDL", "HSpice", "FPGA", "ASIC"]
+      "name": "Visualization",
+      "keywords": ["Metabase", "Grafana", "Power BI", "TensorBoard", "Matplotlib", "Seaborn"]
+    },
+    {
+      "name": "Big Data",
+      "keywords": ["PySpark", "Luigi", "Pandas", "Numpy", "Spark", "Scala"]
+    },
+    {
+      "name": "CI/CD & Orchestration",
+      "keywords": ["GitLab", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Full Stack Development",
+      "keywords": ["NextJS", "Node.js", "Django", "Java", "Spring Boot", "FastAPI", "Express.js"]
     }
   ],
   "languages": [
