@@ -1,111 +1,143 @@
-
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
-    }]
+    "name": "Ali Nikkhah",
+    "label": "Researcher",
+    "email": "alinikkhah.application@gmail.com",
+    "url": "https://alinikkhah2001.github.io",
+    "summary": "Experienced researcher in AI/ML, digital electronics, and full-stack development, specializing in deep learning, FPGA/ASIC design, and scalable software architectures.",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alinikkhah2001/"
+      }
+    ]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "location": {
+    "countryCode": "IR"
+  },
+  "work": [
+    {
+      "name": "MapnaMD2",
+      "position": "Fullstack Developer",
+      "summary": "Designed and implemented an integrated Content Management System using Django and NextJS. Developed efficient backend APIs and dynamic frontend interfaces."
+    },
+    {
+      "name": "Homa Cloud",
+      "position": "Fullstack Developer",
+      "summary": "Developed backend services and API integrations for a cloud-based platform, utilizing Node.js and Django to optimize performance and scalability."
+    },
+    {
+      "name": "Homa Cloud",
+      "position": "MLOps Developer",
+      "summary": "Implemented a multi-node, multi-GPU workplace for JupyterHub users, optimizing distributed computing performance."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Resana Organization (Sharif University of Technology student organization)",
+      "position": "Web Designer",
+      "summary": "Designed and developed the website for contests and student events."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sharif University of Technology",
+      "area": "Electrical Engineering",
+      "studyType": "Bachelor",
+      "specialization": "Digital Systems",
+      "startDate": "2020-09",
+      "gpa": "3.76",
+      "gpaSpecialized": "3.91"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SELECTED COURSES & PROFESSIONAL CERTIFICATIONS",
+      "courses": [
+        "Parallel Programming and Big Data Analysis - EPFL",
+        "Machine Learning Specialization - DeepLearning.ai",
+        "Deep Learning Specialization - DeepLearning.ai",
+        "Introduction to Self-Driving Cars - University of Toronto",
+        "Mathematical Concepts of Machine Learning - Imperial College London",
+        "Deep Learning, Machine Learning, Foundations of Data Science, Natural Language Processing, ASICs & FPGA, Microcontrollers, Real-Time Embedded Systems, Analog Electronics - Sharif University"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": ["NextJS", "Node.js", "Django", "FastAPI", "Express.js"]
+    },
+    {
+      "name": "Deep Learning",
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "OpenCV", "Scikit-learn"]
+    },
+    {
+      "name": "Hardware Design",
+      "keywords": ["Verilog", "VHDL", "HSpice", "FPGA", "ASIC"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Native-level proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Artificial Intelligence",
+      "keywords": ["Computer Vision", "Generative Models", "NLP"]
+    },
+    {
+      "name": "Music",
+      "keywords": ["Electric Guitar", "Rock", "Metal"]
+    },
+    {
+      "name": "Sports",
+      "keywords": ["Kickboxing"]
+    },
+    {
+      "name": "Art",
+      "keywords": ["Modern Art", "Expressionist Paintings"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Video Action Classification Using Transformer-Based Methods",
+      "startDate": "2023-11",
+      "highlights": [
+        "Worked on reducing background and texture dependency in video classifiers",
+        "Investigated appearance-free classification using transformer models"
+      ]
+    },
+    {
+      "name": "Multi-Agent Reinforcement Learning for Investment",
+      "startDate": "2023-04",
+      "highlights": [
+        "Worked on various multi-agent reinforcement learning algorithms",
+        "Investigated strategies to mitigate catastrophic forgetting in RL models"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Babak Khalaj",
+      "institution": "Sharif University",
+      "url": "https://sharif.edu/~khalaj/"
+    },
+    {
+      "name": "Dr. Fatemeh Akbar",
+      "institution": "Sharif University",
+      "url": "https://sina.sharif.edu/~fakbar/"
+    },
+    {
+      "name": "Dr. Amir Mirzaenia",
+      "institution": "University of North Texas",
+      "url": "https://engineering.unt.edu/people/amir-mirzaeinia.html"
+    }
+  ]
 }
