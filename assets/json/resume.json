@@ -1,169 +1,111 @@
+
 {
   "basics": {
-    "name": "Ali Nikkhah",
-    "label": "Researcher",
-    "email": "alinikkhah.application@gmail.com",
-    "url": "https://alinikkhah2001.github.io",
-    "summary": "Experienced researcher in AI/ML, digital electronics, and full-stack development, specializing in deep learning, FPGA/ASIC design, and scalable software architectures.",
+    "name": "John Doe",
+    "label": "Programmer",
+    "image": "",
+    "email": "john@gmail.com",
+    "phone": "(912) 555-4321",
+    "url": "https://johndoe.com",
+    "summary": "A summary of John Doe…",
     "location": {
-      "city": "Tehran",
-      "countryCode": "IR",
-      "region": "Tehran"
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
     },
     "profiles": [{
-      "network": "LinkedIn",
-      "url": "https://www.linkedin.com/in/alinikkhah2001/"
+      "network": "Twitter",
+      "username": "john",
+      "url": "https://twitter.com/john"
     }]
   },
-  "work": [
-    {
-      "name": "MapnaMD2",
-      "position": "Fullstack Developer",
-      "summary": "Designed and implemented an integrated Content Management System using Django and NextJS. Developed efficient backend APIs and dynamic frontend interfaces."
-    },
-    {
-      "name": "Homa Cloud",
-      "position": "Fullstack Developer",
-      "summary": "Developed backend services and API integrations for a cloud-based platform, utilizing Node.js and Django to optimize performance and scalability."
-    },
-    {
-      "name": "Homa Cloud",
-      "position": "MLOps Developer",
-      "summary": "Implemented a multi-node, multi-GPU workplace for JupyterHub users, optimizing distributed computing performance."
-    }
-  ],
-  "education": [
-    {
-      "institution": "Sharif University of Technology",
-      "area": "Electrical Engineering",
-      "studyType": "Bachelor",
-      "specialization": "Digital Systems",
-      "startDate": "2020-09",
-      "gpa": "3.76",
-      "gpaSpecialized": "3.91"
-    },
-    {
-      "institution": "Iranian University Entrance Exam (Konkoor)",
-      "summary": "Ranked 14th in Mathematics & Physics entrance exam; Top 0.01% of candidates",
-      "date": "2020-08"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Languages",
-      "keywords": ["IELTS Band 8.0 (Listening 9.0, Reading 9.0, Writing 7.0, Speaking 7.5)"]
-    },
-    {
-      "name": "Hardware",
-      "keywords": ["Verilog", "VHDL", "HSpice", "Matlab"]
-    },
-    {
-      "name": "Deep Learning",
-      "keywords": ["PyTorch", "TensorFlow", "Keras", "OpenCV", "Scikit-learn"]
-    },
-    {
-      "name": "Visualization",
-      "keywords": ["Metabase", "Grafana", "Power BI", "TensorBoard", "Matplotlib", "Seaborn"]
-    },
-    {
-      "name": "Big Data",
-      "keywords": ["PySpark", "Luigi", "Pandas", "Numpy", "Spark", "Scala"]
-    },
-    {
-      "name": "CI/CD & Orchestration",
-      "keywords": ["GitLab", "Docker", "Kubernetes"]
-    },
-    {
-      "name": "Full Stack Development",
-      "keywords": ["NextJS", "Node.js", "Django", "Java", "Spring Boot", "FastAPI", "Express.js"]
-    }
-  ],
-  "research": [
-    {
-      "position": "Research Assistant",
-      "institution": "Sharif University",
-      "project": "Spread Time CDMA Transceiver Chip",
-      "startDate": "2022-12",
-      "highlights": [
-        "Investigated methods for implementing and optimizing FFT, Register banks, FIR Filters, and SPI",
-        "Developed Verilog code for modules and tested using simulation testbenches",
-        "Programmed FPGA and validated the correctness and precision of outputs",
-        "Implemented and tested ASIC modules"
-      ]
-    },
-    {
-      "position": "Researcher",
-      "institution": "L3S Research Center",
-      "project": "Video Action Classification Using Transformer-Based Methods",
-      "startDate": "2023-11",
-      "highlights": [
-        "Worked on reducing background and texture dependency in video classifiers",
-        "Investigated appearance-free classification using transformer models"
-      ]
-    },
-    {
-      "position": "Research Assistant",
-      "project": "Multi-Agent Reinforcement Learning for Investment",
-      "advisor": "Dr. Amir Mirzaenia",
-      "startDate": "2023-04",
-      "highlights": [
-        "Worked on various multi-agent reinforcement learning algorithms",
-        "Investigated strategies to mitigate catastrophic forgetting in RL models"
-      ]
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Circuit Theory 1 & 2",
-      "role": "Head Teaching Assistant",
-      "advisor": "Dr. Siavash Bayat",
-      "highlights": [
-        "Developed and graded exams and assignments",
-        "Assisted in creating educational materials"
-      ]
-    },
-    {
-      "course": "Generative Models",
-      "role": "Research/Homework Teaching Assistant",
-      "advisor": "Dr. Sajjad Amini",
-      "highlights": [
-        "Designed and graded theoretical and simulation homeworks"
-      ]
-    },
-    {
-      "course": "Natural Language Processing",
-      "role": "Teaching Assistant for Projects",
-      "advisor": "Dr. Ehsan Asgari",
-      "highlights": [
-        "Designing and grading projects",
-        "Holding TA sessions"
-      ]
-    },
-    {
-      "course": "Foundations of Data Science",
-      "role": "Teaching Assistant",
-      "advisor": "Dr. Babak Khalaj",
-      "highlights": [
-        "Designing and grading homeworks"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Prof. Babak Khalaj",
-      "institution": "Sharif University",
-      "url": "https://sharif.edu/~khalaj/"
-    },
-    {
-      "name": "Dr. Fatemeh Akbar",
-      "institution": "Sharif University",
-      "url": "https://sina.sharif.edu/~fakbar/"
-    },
-    {
-      "name": "Dr. Amir Mirzaenia",
-      "institution": "University of North Texas",
-      "url": "https://engineering.unt.edu/people/amir-mirzaeinia.html"
-    }
-  ]
+  "work": [{
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
 }
-
