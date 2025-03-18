@@ -62,6 +62,28 @@ ninja.data = [{
           window.location.href = "/blog/2025/Ultrasound-Report-Generation/";
         
       },
+    },{id: "post-a-post-with-disqus-comments",
+      
+        title: "a post with disqus comments",
+      
+      description: "an example of a blog post with disqus comments",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2015/disqus-comments/";
+        
+      },
+    },{id: "post-a-post-with-code",
+      
+        title: "a post with code",
+      
+      description: "an example of a blog post with some code",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2015/code/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
