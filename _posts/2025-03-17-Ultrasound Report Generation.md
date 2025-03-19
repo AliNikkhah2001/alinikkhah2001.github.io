@@ -13,7 +13,7 @@ tabs: true
 
 
 
-# Ultrasound Report Generation: Literature Review
+
 
 ## Introduction
 
