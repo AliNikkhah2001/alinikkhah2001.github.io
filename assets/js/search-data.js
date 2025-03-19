@@ -62,6 +62,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/Ultrasound-Report-Generation/";
         
       },
+    },{id: "post-advanced-methods-for-improving-ultrasound-report-generation-full-version",
+      
+        title: "Advanced Methods for Improving Ultrasound Report Generation - Full Version",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Improving-URG-complete/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
