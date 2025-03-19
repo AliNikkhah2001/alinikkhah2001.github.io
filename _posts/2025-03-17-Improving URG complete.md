@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Advanced Methods for Improving Ultrasound Report Generation - Full Version
