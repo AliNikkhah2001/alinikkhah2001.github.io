@@ -62,9 +62,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/Ultrasound-Report-Generation/";
         
       },
-    },{id: "post-improving-urg-complete",
+    },{id: "post-advanced-methods-for-improving-ultrasound-report-generation-full-version",
       
-        title: "Improving urg complete",
+        title: "Advanced Methods for Improving Ultrasound Report Generation - Full Version",
       
       description: "",
       section: "Posts",
