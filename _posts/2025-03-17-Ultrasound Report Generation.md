@@ -10,117 +10,6 @@ tabs: true
 ---
 
 
-## First tabs
-
-To add tabs, use the following syntax:
-
-{% raw %}
-
-```liquid
-{% tabs group-name %}
-
-{% tab group-name tab-name-1 %}
-
-Content 1
-
-{% endtab %}
-
-{% tab group-name tab-name-2 %}
-
-Content 2
-
-{% endtab %}
-
-{% endtabs %}
-```
-
-{% endraw %}
-
-With this you can generate visualizations like:
-
-{% tabs log %}
-
-{% tab log php %}
-
-```php
-var_dump('hello');
-```
-
-{% endtab %}
-
-{% tab log js %}
-
-```javascript
-console.log("hello");
-```
-
-{% endtab %}
-
-{% tab log ruby %}
-
-```javascript
-pputs 'hello'
-```
-
-{% endtab %}
-
-{% endtabs %}
-
-## Another example
-
-{% tabs data-struct %}
-
-{% tab data-struct yaml %}
-
-```yaml
-hello:
-  - "whatsup"
-  - "hi"
-```
-
-{% endtab %}
-
-{% tab data-struct json %}
-
-```json
-{
-  "hello": ["whatsup", "hi"]
-}
-```
-
-{% endtab %}
-
-{% endtabs %}
-
-## Tabs for something else
-
-{% tabs something-else %}
-
-{% tab something-else text %}
-
-Regular text
-
-{% endtab %}
-
-{% tab something-else quote %}
-
-> A quote
-
-{% endtab %}
-
-{% tab something-else list %}
-
-Hipster list
-
-- brunch
-- fixie
-- raybans
-- messenger bag
-
-{% endtab %}
-
-{% endtabs %}
-
 
 
 
@@ -140,11 +29,28 @@ A notable line of research focuses on _semi-automatic_ or structured report gene
 
 In summary, existing ultrasound report generation methods can be categorized as:
 
+{% tabs something-else %}
+
+{% tab something-else Encoder-Decoder %}
+
 *   **Encoder–Decoder Generators:** Fully automated models (often CNN+LSTM or Transformer-based) that learn to generate text directly from images (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf). _Strengths:_ end-to-end learning captures rich image-text patterns; flexible in producing free-form descriptions. _Weaknesses:_ require large labeled datasets; prone to missing rare findings and making generic statements; can struggle with coherence in long reports (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf).
-    
+
+{% endtab %}
+
+{% tab something-else KA model %}
+
 *   **Knowledge-Augmented Models:** Encoder–decoders enhanced with extra inputs or supervision, such as known disease labels or section headings (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf). For example, some radiology report models appended _abnormality tags_ or used report section titles as prompts to guide the generator (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf). _Strengths:_ better alignment of visual features with specific report content, improving detail accuracy (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf). _Weaknesses:_ rely on additional annotations (e.g. labeling images with findings), which is labor-intensive and not always feasible (Ultrasound Report Generation with Cross-Modality Feature Alignment via Unsupervised Guidance.pdf).
-    
+
+{% endtab %}
+
+{% tab something-else Semi-Automatic %}
+
 *   **Hybrid / Semi-automatic Systems:** Multi-module pipelines that combine image analysis, information retrieval, and template-based text assembly. _Strengths:_ high precision and consistency; can exploit existing structured data (measurements, annotations). _Weaknesses:_ less flexible – may not describe unexpected findings beyond the template; heavier to integrate into workflow due to multiple components.
+{% endtab %}
+
+{% endtabs %}
+
+
     
 
 Overall, the literature after 2018 shows a trend from simple CNN-RNN models toward more sophisticated architectures that incorporate attention, multi-modal data, and external knowledge. Yet, even the best current systems have notable limitations in generating truly comprehensive and accurate ultrasound reports. Next, we discuss how insights from general image captioning research have influenced these medical applications and what additional techniques are being leveraged to overcome the challenges.
