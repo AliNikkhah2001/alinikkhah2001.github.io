@@ -1,9 +1,15 @@
+
 ---
+layout: post
 title: Advanced Methods for Improving Ultrasound Report Generation - Full Version
 tags: []
 published: true
 date: '2025-03-17'
+tags: vision
+categories: research
+tabs: true
 ---
+
 
 
 
