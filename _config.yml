@@ -1,6 +1,5 @@
 
  title: Your awesome title
-
  author:
    name: GitHub User
    email: your-email@domain.com
@@ -8,36 +7,21 @@
    Write an awesome description for your new site here. You can edit this line
    in _config.yml. It will appear in your document head meta (for Google search
    results) and in your feed.xml site description.
-
  remote_theme: jekyll/minima@d4d779a
-
  Minima requires the following plugins:
  plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-
  sass:
    quiet_deps: true
    silence_deprecations: [import]
-
-
-
-
  minima:
    Minima skin selection. Available skins are:
-     * solarized          Adaptive skin for solarized color scheme skins.
    skin: auto
-
-
    nav_pages:
      - about.md
-
    show_excerpts: false
-
    date_format: "%b-%d-%Y"
-
-       * url      Full URL of social profile.
    social_links:
      - title: Minima Theme repository at GitHub
        icon: github
@@ -45,5 +29,4 @@
      - title: Jekyll at X (formerly Twitter)
        icon: x-twitter
        url: "https://x.com/jekyllrb"
-
    hide_site_feed_link: false
