@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+$color-scheme-auto: false;
+$color-scheme-dark: false;
+
+$lm-brand-color:           #7c4a21;
+$lm-brand-color-light:     lighten($lm-brand-color, 35%);
+$lm-brand-color-dimmed:    darken($lm-brand-color, 12%);
+$lm-brand-color-dark:      darken($lm-brand-color, 28%);
+
+$lm-site-title-color:      $lm-brand-color-dark;
+$lm-heading-color:         #2e2117;
+$lm-text-color:            #2a2218;
+$lm-background-color:      #f7f1e6;
+$lm-code-background-color: #efe0ca;
+
+$lm-link-base-color:       $lm-brand-color;
+$lm-link-visited-color:    darken($lm-link-base-color, 10%);
+$lm-link-hover-color:      $lm-brand-color-dark;
+
+$lm-border-color-01:       #dacab2;
+$lm-border-color-02:       #d4c4ad;
+$lm-border-color-03:       #a5805a;
+
+$lm-table-text-color:      #3b2e24;
+$lm-table-zebra-color:     #f1e7d8;
+$lm-table-header-bg-color: #efe2cf;
+$lm-table-header-border:   #d7c4af;
+$lm-table-border-color:    $lm-border-color-01;
+
+@import "minima/skins/auto";
