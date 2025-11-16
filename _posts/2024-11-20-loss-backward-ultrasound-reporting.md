@@ -3,11 +3,14 @@ layout: post
 title: "Loss.backward #00 — Ultrasound Reports Without the Pager"
 categories:
   - loss.backward
+<<<<<<< HEAD
 tags:
   - medical imaging
   - vision-language
   - report generation
   - clinical ai
+=======
+>>>>>>> main
 excerpt: >-
   How we paired BLIP-style encoders with T5 generators and clinician-in-the-loop evaluation to draft
   trustworthy ultrasound findings at UBC.

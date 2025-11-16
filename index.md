@@ -51,6 +51,7 @@ experience:
   - period: "Sep 2025 – Nov 2025"
     role: "Senior Data Scientist"
     org: "Turquoise Digital"
+<<<<<<< HEAD
     location: "Tehran, Tehran Province, Iran"
     work_model: "Full-time · On-site"
     summary: >-
@@ -292,6 +293,64 @@ experience:
       - Node.js
       - PostgreSQL
       - Docker
+=======
+    body: >-
+      Directed AI initiatives for regional retailers—shipping multilingual recommendation engines, audit-ready
+      monitoring stacks, and classical merchandising intelligence powered by generative tooling.
+  - period: "Aug 2025 – Sep 2025"
+    role: "Data Scientist"
+    org: "Turquoise Digital"
+    body: >-
+      Established the data and experimentation bedrock for Turquoise’s applied AI squad, maturing evaluation
+      pipelines and agentic experimentation sprints before stepping into the senior mandate.
+  - period: "May 2025 – Nov 2025"
+    role: "Machine Learning Researcher — EmoDub"
+    org: "Trinity College Dublin"
+    body: >-
+      Led emotion-aware speech translation research integrating transformer SER front-ends, wav2vec2.0
+      embeddings, multimodal fusion, and MOS/Emotion-F1 evaluations to keep affect intact across languages.
+  - period: "Feb 2024 – Nov 2025"
+    role: "Ultrasound Report Generation Research Assistant"
+    org: "University of British Columbia"
+    body: >-
+      Built a vision-language pipeline pairing BLIP/ViT encoders with T5 generators, clinician dashboards, and
+      saliency overlays to draft accurate, explainable ultrasound reports.
+  - period: "Jul 2025 – Sep 2025"
+    role: "Applied ML Researcher"
+    org: "Robust & Interpretable ML Lab"
+    body: >-
+      Explored robustness guarantees for multimodal pipelines, delivering evaluation harnesses that quantify
+      interpretability and generalisation for high-stakes deployments.
+  - period: "Jan 2025 – Aug 2025"
+    role: "AI Engineering R/D Lead"
+    org: "Digikala"
+    body: >-
+      Architected modular control pipelines, agentic RAG frameworks, and real-time evaluation loops that power
+      marketplace listing intelligence across millions of SKUs.
+  - period: "Nov 2024 – Jan 2025"
+    role: "AI Engineer"
+    org: "Digikala"
+    body: >-
+      Built multi-agent orchestration frameworks, hybrid retrieval stacks, and memory-efficient indexing that
+      paved the way for the R/D leadership mandate.
+  - period: "Apr 2023 – Feb 2024"
+    role: "Video Motion Classification Research Assistant"
+    org: "L3S Research Center"
+    body: >-
+      Designed texture-free motion models using optical flow, 3D CNNs, and transformer encoders to generalise
+      across lighting, texture, and camera shifts.
+  - period: "Aug 2021 – Feb 2022"
+    role: "MLOps Engineer"
+    org: "HomaCloud"
+    body: >-
+      Built scalable training, CI/CD, and serving infrastructure using Docker, Kubernetes, FastAPI, and Terraform
+      with rigorous monitoring and logging.
+  - period: "Jan 2021 – May 2021"
+    role: "Full Stack Engineer"
+    org: "Mapna-MD2"
+    body: >-
+      Delivered production web services and internal tools after graduating from the preceding internship.
+>>>>>>> main
 education:
   - school: "Sharif University of Technology"
     credential: "B.Sc. Electrical & Electronics Engineering"
@@ -483,6 +542,7 @@ loss_backward:
       <p class="timeline-period">{{ entry.period }}</p>
       <h3 class="timeline-role">{{ entry.role }}</h3>
       <p class="timeline-org">{{ entry.org }}</p>
+<<<<<<< HEAD
       {%- if entry.location or entry.work_model -%}
       <p class="timeline-meta">{{ entry.location }}{% if entry.location and entry.work_model %} · {% endif %}{{ entry.work_model }}</p>
       {%- endif -%}
@@ -506,6 +566,9 @@ loss_backward:
         </div>
       </div>
       {%- endif -%}
+=======
+      <p class="timeline-body">{{ entry.body }}</p>
+>>>>>>> main
     </li>
     {%- endfor -%}
   </ol>
@@ -609,6 +672,7 @@ loss_backward:
         {%- if post.excerpt -%}
         <p class="post-summary">{{ post.excerpt | strip_html | truncate: 140 }}</p>
         {%- endif -%}
+<<<<<<< HEAD
         {%- if post.tags -%}
         <p class="post-tags-inline">
           {%- for tag in post.tags -%}
@@ -616,11 +680,17 @@ loss_backward:
           {%- endfor -%}
         </p>
         {%- endif -%}
+=======
+>>>>>>> main
       </article>
     </li>
     {%- endfor -%}
   </ol>
+<<<<<<< HEAD
   <p class="folio-cta"><a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">Browse the blog</a></p>
+=======
+  <p class="folio-cta"><a class="btn btn-ghost" href="{{ '/writing/' | relative_url }}">View the full archive</a></p>
+>>>>>>> main
   {%- else -%}
   <p class="folio-cta">Essays and notes will appear here soon. Stay tuned!</p>
   {%- endif -%}

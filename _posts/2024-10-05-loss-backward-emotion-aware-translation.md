@@ -3,11 +3,14 @@ layout: post
 title: "Loss.backward #−1 — Translating Feelings, Not Just Words"
 categories:
   - loss.backward
+<<<<<<< HEAD
 tags:
   - emotion-aware translation
   - speech
   - multimodal
   - research
+=======
+>>>>>>> main
 excerpt: >-
   Notes from the EmoDub project at Trinity College Dublin where we fused SER models, wav2vec 2.0 features,
   and multimodal fusion to keep affect intact during translation.
