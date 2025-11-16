@@ -10,6 +10,10 @@ baseurl: ""   # keep empty for a personal site at USERNAME.github.io
 # Theme (pin to a stable tag)
 remote_theme: "jekyll/minima@v2.5.0"
 
+minima:
+  skin: antique
+  date_format: "%b %Y"
+
 # Plugins needed by Minima and GitHub Pages
 plugins:
   - jekyll-remote-theme
@@ -25,7 +29,9 @@ kramdown:
 
 # Navigation (top links)
 header_pages:
-  - about.md
+  - blog.md
+  - writing.md
+  - loss-backward.md
 
 # Optional: show post excerpts on the home page
 show_excerpts: true
