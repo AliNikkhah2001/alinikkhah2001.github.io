@@ -4,7 +4,9 @@ title: Writing
 permalink: /writing/
 ---
 
-Welcome to a curated log of essays, build notes, and speaking material. Each entry below links to the full article.
+Welcome to the public notebook. Essays from the **loss.backward** series appear alongside broader speaking notes
+and research summaries. Subscribe via RSS or jump straight into the [loss.backward archive]({{ '/loss-backward/' | relative_url }})
+if you only want the applied AI/ML dispatches.
 
 {%- if site.posts and site.posts.size > 0 -%}
 <ul class="archive-list">

@@ -31,6 +31,7 @@ kramdown:
 header_pages:
   - about.md
   - writing.md
+  - loss-backward.md
 
 # Optional: show post excerpts on the home page
 show_excerpts: true
