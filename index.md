@@ -4,10 +4,11 @@ title: "Ali Nikkhah"
 hero:
   eyebrow: "Machine Learning Engineer / Machine Learning Researcher"
   lede: >-
-    I specialise in transforming state-of-the-art multimodal, agentic, and retrieval-augmented methods into
-    resilient production systems. From multilingual marketplaces to clinical reporting labs, I architect pipelines
-    that autonomously generate, moderate, and enrich millions of artefacts while remaining explainable and
-    regulation-ready.
+    I'm a machine learning researcher-engineer obsessed with translating state-of-the-art multimodal, agentic,
+    and retrieval-augmented methods into resilient production systems. From multilingual marketplaces to
+    clinical reporting labs, I architect pipelines that autonomously generate, moderate, and enrich millions of
+    artefacts while remaining explainable and regulation-ready. I'm highly motivated and actively exploring new
+    master's or PhD homes where these research threads can grow alongside hands-on product impact.
   actions:
     - label: "Email me"
       href: "mailto:alinkkh9@gmail.com"
@@ -30,7 +31,7 @@ hero:
 focus: |-
   I am an applied machine learning researcher and engineer who is endlessly enthusiastic about multimodal AI, affective computing, and autonomous evaluation systems. My work blends rigorous research with production-grade engineering so ideas move quickly from controlled studies into platforms serving clinicians, linguists, and marketplace operators.
 
-  I am actively seeking master's or PhD positions in these domains and I'm always open to research collaborations or co-authored publications that push the boundaries of speech, vision-language, and agentic ML systems.
+  I am highly motivated and actively seeking master's or PhD opportunities focused on these AI/ML domains, and I'm equally eager to co-author papers or prototype joint research with labs and companies operating in speech, vision-language, or agentic ML. If you'd like to collaborate or discuss graduate opportunities, please drop me a note at [alinkkh9@gmail.com](mailto:alinkkh9@gmail.com).
 capabilities:
   - title: "Top Skills"
     items:

@@ -4,8 +4,11 @@ title: Blog
 permalink: /blog/
 ---
 
-The **loss.backward** notebook anchors this blog, but every publication—project retrospectives, research notes,
-and product essays—lives here with live tag filtering so you can focus on the topics you care about most.
+I'm a machine learning researcher / engineer chronicling experiments across multimodal AI, affective computing,
+and agentic systems. The **loss.backward** notebook anchors this blog, but every publication—project
+retrospectives, research notes, and product essays—lives here with live tag filtering so you can focus on the
+topics you care about most. If a post sparks an idea or you'd like to collaborate, feel free to reach out via
+[alinkkh9@gmail.com](mailto:alinkkh9@gmail.com).
 
 {%- assign all_tags = site.tags | sort -%}
 {%- if all_tags and all_tags.size > 0 -%}

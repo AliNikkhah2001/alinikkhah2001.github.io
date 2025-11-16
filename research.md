@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-This notebook highlights the programs and questions I am actively exploring. My research practice balances rigorous experimentation with deployable systems that partner with clinicians, linguists, and product leaders.
+As a machine learning researcher / engineer, this notebook highlights the programs and questions I am actively exploring. My practice balances rigorous experimentation with deployable systems that partner with clinicians, linguists, and product leaders, keeping science tightly coupled to production.
 
 ## Emotion-aware speech translation
 - **Lab:** Trinity College Dublin · EmoDub Project
@@ -28,4 +28,4 @@ This notebook highlights the programs and questions I am actively exploring. My 
 - Analysed attention maps and counterfactuals to explain decisions for reviewers and industry partners.
 
 ## Open collaboration
-I maintain reproducible codebases for each program—agentic evaluation harnesses, data cards, and experiment logs live on GitHub—and I'm eager to co-author papers that explore multimodal alignment, affective computing, and applied clinical AI. If your lab or company is building in these areas, please [reach out](/contact/).
+I am highly motivated and actively seeking master's or PhD opportunities that expand this work, and I'm eager to co-author papers or pursue joint experiments around multimodal alignment, affective computing, and applied clinical AI. Each program includes reproducible codebases—agentic evaluation harnesses, data cards, and experiment logs live on GitHub—so collaboration is straightforward. If your lab or company is building in these areas, please [reach out](/contact/) or email [alinkkh9@gmail.com](mailto:alinkkh9@gmail.com).
