@@ -2,7 +2,7 @@
 layout: home
 title: "Ali Nikkhah"
 hero:
-  eyebrow: "Machine Learning Researcher · Engineering Lead"
+  eyebrow: "Machine Learning Engineer / Machine Learning Researcher"
   lede: >-
     I specialise in transforming state-of-the-art multimodal, agentic, and retrieval-augmented methods into
     resilient production systems. From multilingual marketplaces to clinical reporting labs, I architect pipelines
@@ -27,10 +27,10 @@ hero:
       detail: "Agentic ML · Clinical AI · Multimodal RAG"
     - label: "Contact"
       detail: "+98 991 296 3951"
-focus: >-
-  I am an applied machine learning researcher and engineer who pairs rigorous research with platform thinking. My
-  mandate covers the full lifecycle—architecting Kubernetes-native ML platforms, curating multilingual datasets,
-  designing evaluation harnesses, and leading teams that bridge policy, infrastructure, and product needs.
+focus: |-
+  I am an applied machine learning researcher and engineer who is endlessly enthusiastic about multimodal AI, affective computing, and autonomous evaluation systems. My work blends rigorous research with production-grade engineering so ideas move quickly from controlled studies into platforms serving clinicians, linguists, and marketplace operators.
+
+  I am actively seeking master's or PhD positions in these domains and I'm always open to research collaborations or co-authored publications that push the boundaries of speech, vision-language, and agentic ML systems.
 capabilities:
   - title: "Top Skills"
     items:
@@ -42,11 +42,11 @@ capabilities:
       - "Emotion-aware speech-to-speech translation with SER fusion"
       - "Ultrasound report generation with ViT, BLIP, and T5 backbones"
       - "Texture-free video motion classification and multimodal perception"
-  - title: "Leadership & Enablement"
+  - title: "Academic Formation"
     items:
-      - "Fractional head-of-ML engagements and mentorship"
-      - "Experimentation boards, compliance reviews, and observability SLAs"
-      - "Cross-disciplinary coordination with clinicians, linguists, and policy"
+      - "Signal processing, control theory, and large-scale systems design at Sharif University"
+      - "Graduate instruction support across NLP, Generative Models, and Deep Learning"
+      - "Collaborations with Trinity College Dublin, UBC, and L3S on multimodal research"
 experience:
   - period: "Sep 2025 – Nov 2025"
     role: "Senior Data Scientist"
@@ -431,7 +431,9 @@ loss_backward:
 
 <section class="folio-section" id="focus">
   <h2 class="section-title">Summary</h2>
-  <p>{{ page.focus }}</p>
+  <div class="folio-prose">
+    {{ page.focus | markdownify }}
+  </div>
 </section>
 
 {%- if page.capabilities -%}

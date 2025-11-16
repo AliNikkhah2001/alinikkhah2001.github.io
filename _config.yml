@@ -29,9 +29,9 @@ kramdown:
 
 # Navigation (top links)
 header_pages:
+  - contact.md
   - blog.md
-  - writing.md
-  - loss-backward.md
+  - research.md
 
 # Optional: show post excerpts on the home page
 show_excerpts: true
