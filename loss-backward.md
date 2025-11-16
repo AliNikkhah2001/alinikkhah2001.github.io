@@ -19,6 +19,16 @@ teams can reuse the scaffolding, not just the headlines.
       {%- if post.excerpt -%}
       <p class="archive-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
       {%- endif -%}
+<<<<<<< HEAD
+      {%- if post.tags -%}
+      <div class="post-tags-inline">
+        {%- for tag in post.tags -%}
+        <span class="skill-chip">{{ tag }}</span>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
+=======
+>>>>>>> main
     </div>
   </li>
   {%- endfor -%}

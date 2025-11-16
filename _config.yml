@@ -29,7 +29,11 @@ kramdown:
 
 # Navigation (top links)
 header_pages:
+<<<<<<< HEAD
+  - blog.md
+=======
   - about.md
+>>>>>>> main
   - writing.md
   - loss-backward.md
 

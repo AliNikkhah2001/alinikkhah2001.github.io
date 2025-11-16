@@ -317,6 +317,44 @@ a:focus {
   width: 14px;
 }
 
+<<<<<<< HEAD
+.timeline-details {
+  margin: 0.75rem 0 0;
+  padding-left: 1.15rem;
+  color: var(--folio-ink);
+}
+
+.timeline-details li {
+  margin-bottom: 0.35rem;
+}
+
+.timeline-skills {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--folio-muted);
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.skill-chip {
+  border: 1px solid var(--folio-border);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--folio-ink);
+}
+
+=======
+>>>>>>> main
 .timeline-role {
   font-size: 1.2rem;
   margin: 0;
@@ -428,6 +466,58 @@ a:focus {
   line-height: 1.6;
 }
 
+<<<<<<< HEAD
+.post-tags-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+}
+
+.post-card--full {
+  margin-bottom: 2rem;
+}
+
+.post-taxonomy {
+  color: var(--folio-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.blog-tags {
+  border: 1px solid var(--folio-border);
+  padding: 1.5rem;
+  background: var(--folio-paper);
+}
+
+.blog-tags h2 {
+  margin-top: 0;
+}
+
+.tag-cloud {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.tag-cloud li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.tag-count {
+  color: var(--folio-muted);
+  font-size: 0.85rem;
+}
+
+=======
+>>>>>>> main
 .folio-cta {
   margin-top: 1.5rem;
   text-align: right;
