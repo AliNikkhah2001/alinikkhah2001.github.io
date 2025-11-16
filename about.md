@@ -4,15 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## About Ali
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am an applied-machine-learning researcher focused on building elegant, trustworthy systems that operate in regulated, multilingual
+markets. My career has been spent launching agentic platforms that combine retrieval-augmented generation, multimodal perception,
+and rigorous evaluation frameworks so that organisations can automate content creation and review without compromising compliance.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+At Sharif University of Technology I studied electrical and electronics engineering, where I led research on generative models and
+vision-language alignment. Since then, I have supported product, legal, and engineering teams across Europe and the Middle East as a
+fractional lead, helping them move from prototype to resilient production services.
 
+## What I Do
 
-[jekyll-organization]: https://github.com/jekyll
+- **Systems architecture** &mdash; Kubernetes-native control planes, Terraform-managed infrastructure, and observability foundations that
+  keep models shippable.
+- **Applied research** &mdash; Diffusion pipelines, speech-to-speech translation, multimodal retrieval, and governance for sensitive data.
+- **Leadership** &mdash; Mentoring engineers and researchers, shaping experimentation rituals, and aligning stakeholders around responsible AI.
+
+If you would like to collaborate, feel free to [email me](mailto:alinkkh9@gmail.com) or connect on
+[LinkedIn](https://www.linkedin.com/in/alinikkhah2001/).

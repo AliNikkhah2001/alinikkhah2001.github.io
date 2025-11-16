@@ -1,8 +1,13 @@
-<div class="nav-items">
+{%- assign current = page.url | relative_url -%}
+<ul class="nav-items">
   {%- for path in include.paths -%}
-  {%- assign hyperpage = site.pages | where: "path", path | first -%}
-  {%- if hyperpage.title %}
-  <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
-  {%- endif -%}
-  {%- endfor %}
-</div>
+    {%- assign hyperpage = site.pages | where: "path", path | first -%}
+    {%- if hyperpage.title -%}
+      {%- assign item_url = hyperpage.url | relative_url -%}
+      {%- assign is_active = item_url == current -%}
+      <li class="nav-item{% if is_active %} nav-item--active{% endif %}">
+        <a class="nav-link" href="{{ item_url }}"{% if is_active %} aria-current="page"{% endif %}>{{ hyperpage.title | escape }}</a>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
