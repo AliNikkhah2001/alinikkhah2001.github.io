@@ -5,8 +5,8 @@ permalink: /writing/
 ---
 
 Welcome to the public notebook. Essays from the **loss.backward** series appear alongside broader speaking notes
-and research summaries. Subscribe via RSS or jump straight into the [loss.backward archive]({{ '/loss-backward/' | relative_url }})
-if you only want the applied AI/ML dispatches.
+and research summaries. Prefer a tag-first browsing experience? Visit the [blog index]({{ '/blog/' | relative_url }}) or dive
+straight into the [loss.backward archive]({{ '/loss-backward/' | relative_url }}).
 
 {%- if site.posts and site.posts.size > 0 -%}
 <ul class="archive-list">
@@ -18,6 +18,13 @@ if you only want the applied AI/ML dispatches.
       {%- if post.excerpt -%}
       <p class="archive-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {%- endif -%}
+        {%- if post.tags -%}
+        <div class="post-tags-inline">
+          {%- for tag in post.tags -%}
+          <span class="skill-chip">{{ tag }}</span>
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
     </div>
   </li>
   {%- endfor -%}
