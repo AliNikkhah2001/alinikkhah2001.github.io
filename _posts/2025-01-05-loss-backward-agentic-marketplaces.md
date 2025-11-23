@@ -3,11 +3,6 @@ layout: post
 title: "Loss.backward #01 — Agentic Marketplaces in Production"
 categories:
   - loss.backward
-tags:
-  - agentic rag
-  - marketplaces
-  - mlops
-  - production systems
 excerpt: >-
   Lessons from designing retrieval-augmented, multi-agent control planes that govern millions of e-commerce
   listings while meeting audit and latency constraints.
