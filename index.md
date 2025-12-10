@@ -2,7 +2,7 @@
 layout: home
 title: "Ali Nikkhah"
 hero:
-  eyebrow: "Machine Learning Researcher · Engineering Lead"
+  eyebrow: "Machine Learning Engineer / Machine Learning Researcher"
   lede: >-
     I specialise in transforming state-of-the-art multimodal, agentic, and retrieval-augmented methods into
     resilient production systems. From multilingual marketplaces to clinical reporting labs, I architect pipelines
@@ -27,10 +27,14 @@ hero:
       detail: "Agentic ML · Clinical AI · Multimodal RAG"
     - label: "Contact"
       detail: "+98 991 296 3951"
-focus: >-
-  I am an applied machine learning researcher and engineer who pairs rigorous research with platform thinking. My
-  mandate covers the full lifecycle—architecting Kubernetes-native ML platforms, curating multilingual datasets,
-  designing evaluation harnesses, and leading teams that bridge policy, infrastructure, and product needs.
+focus: |-
+  I am an applied machine learning researcher and engineer who is endlessly enthusiastic about multimodal AI, affective computing, and autonomous evaluation systems. My work blends rigorous research with production-grade engineering so ideas move quickly from controlled studies into platforms serving clinicians, linguists, and marketplace operators.
+
+  I am actively seeking master's or PhD positions in these domains and I'm always open to research collaborations or co-authored publications that push the boundaries of speech, vision-language, and agentic ML systems.
+opportunities: |-
+  **Highly motivated to pursue graduate research.** I am directly seeking master's or PhD positions that explore multimodal learning, affective computing, medical report generation, or agentic systems. If your lab is looking for a researcher who can bridge theory with resilient infrastructure, I would love to compare roadmaps.
+
+  **Open to research collaborations and co-authorship.** I'm actively partnering with teams on shared datasets, evaluation harnesses, and reproducible pipelines. Feel free to drop me a note at [alinkkh9@gmail.com](mailto:alinkkh9@gmail.com) if you'd like to co-author, exchange experiments, or scope a visiting researcher engagement.
 capabilities:
   - title: "Top Skills"
     items:
@@ -42,20 +46,20 @@ capabilities:
       - "Emotion-aware speech-to-speech translation with SER fusion"
       - "Ultrasound report generation with ViT, BLIP, and T5 backbones"
       - "Texture-free video motion classification and multimodal perception"
-  - title: "Leadership & Enablement"
+  - title: "Academic Formation"
     items:
-      - "Fractional head-of-ML engagements and mentorship"
-      - "Experimentation boards, compliance reviews, and observability SLAs"
-      - "Cross-disciplinary coordination with clinicians, linguists, and policy"
+      - "Signal processing, control theory, and large-scale systems design at Sharif University"
+      - "Graduate instruction support across NLP, Generative Models, and Deep Learning"
+      - "Collaborations with Trinity College Dublin, UBC, and L3S on multimodal research"
 experience:
   - period: "Sep 2025 – Nov 2025"
     role: "Senior Data Scientist"
     org: "Turquoise Digital"
-      location: "Tehran, Tehran Province, Iran"
-      work_model: "Full-time · On-site"
-      summary: >-
-        Directed AI initiatives for regional retailers—shipping multilingual recommendation engines, audit-ready
-        monitoring stacks, and classical merchandising intelligence powered by generative tooling.
+    location: "Tehran, Tehran Province, Iran"
+    work_model: "Full-time · On-site"
+    summary: >-
+      Directed AI initiatives for regional retailers—shipping multilingual recommendation engines, audit-ready
+      monitoring stacks, and classical merchandising intelligence powered by generative tooling.
     details:
       - "Guided the experimentation backlog that balanced agentic prototypes with regression-tested baselines for enterprise buyers."
       - "Partnered with merchandisers to convert statistical research into production-grade insights dashboards and Metabase playbooks."
@@ -292,7 +296,6 @@ experience:
       - Node.js
       - PostgreSQL
       - Docker
-  
 education:
   - school: "Sharif University of Technology"
     credential: "B.Sc. Electrical & Electronics Engineering"
@@ -432,8 +435,19 @@ loss_backward:
 
 <section class="folio-section" id="focus">
   <h2 class="section-title">Summary</h2>
-  <p>{{ page.focus }}</p>
+  <div class="folio-prose">
+    {{ page.focus | markdownify }}
+  </div>
 </section>
+
+{%- if page.opportunities -%}
+<section class="folio-section" id="opportunities">
+  <h2 class="section-title">Opportunities & Collaboration</h2>
+  <div class="folio-prose">
+    {{ page.opportunities | markdownify }}
+  </div>
+</section>
+{%- endif -%}
 
 {%- if page.capabilities -%}
 <section class="folio-section" id="capabilities">
@@ -480,34 +494,34 @@ loss_backward:
   <h2 class="section-title">Experience</h2>
   <ol class="timeline">
     {%- for entry in page.experience -%}
-      <li class="timeline-item">
-        <p class="timeline-period">{{ entry.period }}</p>
-        <h3 class="timeline-role">{{ entry.role }}</h3>
-        <p class="timeline-org">{{ entry.org }}</p>
-        {%- if entry.location or entry.work_model -%}
-        <p class="timeline-meta">{{ entry.location }}{% if entry.location and entry.work_model %} · {% endif %}{{ entry.work_model }}</p>
-        {%- endif -%}
-        {%- if entry.summary -%}
-        <p class="timeline-body">{{ entry.summary }}</p>
-        {%- endif -%}
-        {%- if entry.details -%}
-        <ul class="timeline-details">
-          {%- for detail in entry.details -%}
-          <li>{{ detail }}</li>
+    <li class="timeline-item">
+      <p class="timeline-period">{{ entry.period }}</p>
+      <h3 class="timeline-role">{{ entry.role }}</h3>
+      <p class="timeline-org">{{ entry.org }}</p>
+      {%- if entry.location or entry.work_model -%}
+      <p class="timeline-meta">{{ entry.location }}{% if entry.location and entry.work_model %} · {% endif %}{{ entry.work_model }}</p>
+      {%- endif -%}
+      {%- if entry.summary -%}
+      <p class="timeline-body">{{ entry.summary }}</p>
+      {%- endif -%}
+      {%- if entry.details -%}
+      <ul class="timeline-details">
+        {%- for detail in entry.details -%}
+        <li>{{ detail }}</li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+      {%- if entry.skills -%}
+      <div class="timeline-skills">
+        <span>Platforms &amp; Tools:</span>
+        <div class="skill-chips">
+          {%- for skill in entry.skills -%}
+          <span class="skill-chip">{{ skill }}</span>
           {%- endfor -%}
-        </ul>
-        {%- endif -%}
-        {%- if entry.skills -%}
-        <div class="timeline-skills">
-          <span>Platforms &amp; Tools:</span>
-          <div class="skill-chips">
-            {%- for skill in entry.skills -%}
-            <span class="skill-chip">{{ skill }}</span>
-            {%- endfor -%}
-          </div>
         </div>
-        {%- endif -%}
-      </li>
+      </div>
+      {%- endif -%}
+    </li>
     {%- endfor -%}
   </ol>
   <div class="resume-card">
@@ -600,29 +614,29 @@ loss_backward:
 
 <section class="folio-section" id="writing">
   <h2 class="section-title">Latest Writing</h2>
-    {%- if site.posts and site.posts.size > 0 -%}
-    <ol class="folio-posts">
-      {%- for post in site.posts limit: 4 -%}
-      <li class="folio-post">
-        <article class="post-card">
-          <p class="post-meta">{{ post.date | date: site.minima.date_format | default: "%b %Y" }}</p>
-          <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-          {%- if post.excerpt -%}
-          <p class="post-summary">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-          {%- endif -%}
-          {%- if post.tags -%}
-          <p class="post-tags-inline">
-            {%- for tag in post.tags -%}
-            <span class="skill-chip">{{ tag }}</span>
-            {%- endfor -%}
-          </p>
-          {%- endif -%}
-        </article>
-      </li>
-      {%- endfor -%}
-    </ol>
-    <p class="folio-cta"><a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">Browse the blog</a></p>
-    {%- else -%}
+  {%- if site.posts and site.posts.size > 0 -%}
+  <ol class="folio-posts">
+    {%- for post in site.posts limit: 4 -%}
+    <li class="folio-post">
+      <article class="post-card">
+        <p class="post-meta">{{ post.date | date: site.minima.date_format | default: "%b %Y" }}</p>
+        <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {%- if post.excerpt -%}
+        <p class="post-summary">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        {%- endif -%}
+        {%- if post.tags -%}
+        <p class="post-tags-inline">
+          {%- for tag in post.tags -%}
+          <span class="skill-chip">{{ tag }}</span>
+          {%- endfor -%}
+        </p>
+        {%- endif -%}
+      </article>
+    </li>
+    {%- endfor -%}
+  </ol>
+  <p class="folio-cta"><a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">Browse the blog</a></p>
+  {%- else -%}
   <p class="folio-cta">Essays and notes will appear here soon. Stay tuned!</p>
   {%- endif -%}
   {%- if page.loss_backward -%}
@@ -642,4 +656,6 @@ loss_backward:
     {%- endfor -%}
   </ul>
 </section>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="alinikkhah2001" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/alinikkhah2001?trk=profile-badge">Ali Nikkhah</a></div>
+              
 {%- endif -%}

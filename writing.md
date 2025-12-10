@@ -18,13 +18,13 @@ straight into the [loss.backward archive]({{ '/loss-backward/' | relative_url }}
       {%- if post.excerpt -%}
       <p class="archive-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
       {%- endif -%}
-        {%- if post.tags -%}
-        <div class="post-tags-inline">
-          {%- for tag in post.tags -%}
-          <span class="skill-chip">{{ tag }}</span>
-          {%- endfor -%}
-        </div>
-        {%- endif -%}
+      {%- if post.tags -%}
+      <div class="post-tags-inline">
+        {%- for tag in post.tags -%}
+        <span class="skill-chip">{{ tag }}</span>
+        {%- endfor -%}
+      </div>
+      {%- endif -%}
     </div>
   </li>
   {%- endfor -%}

@@ -6,9 +6,6 @@
 
     <div class="site-branding">
       <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-      {%- if site.description -%}
-        <p class="site-tagline">{{ site.description | escape }}</p>
-      {%- endif -%}
     </div>
 
     {%- unless page_titles == empty %}
