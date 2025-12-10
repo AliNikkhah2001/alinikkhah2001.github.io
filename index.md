@@ -648,6 +648,8 @@ loss_backward:
 </section>
 
 {%- if page.contact_links -%}
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="alinikkhah2001" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/alinikkhah2001?trk=profile-badge">Ali Nikkhah</a></div>
+              
 <section class="folio-section" id="contact">
   <h2 class="section-title">Contact</h2>
   <ul class="contact-grid">
@@ -656,6 +658,5 @@ loss_backward:
     {%- endfor -%}
   </ul>
 </section>
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="alinikkhah2001" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/alinikkhah2001?trk=profile-badge">Ali Nikkhah</a></div>
-              
+
 {%- endif -%}
