@@ -1,0 +1,316 @@
+/* Custom styles for alinikkhah2001.github.io */
+
+/* VHS-style backward button for loss.backward logo */
+.vhs-rewind {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(145deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  border: 2px solid #e94560;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 
+    0 4px 15px rgba(233, 69, 96, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.vhs-rewind::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(233, 69, 96, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.vhs-rewind:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 
+    0 8px 25px rgba(233, 69, 96, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  border-color: #ff6b6b;
+}
+
+.vhs-rewind:hover::before {
+  left: 100%;
+}
+
+.vhs-rewind:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.vhs-rewind svg {
+  width: 28px;
+  height: 28px;
+  stroke: #e94560;
+  stroke-width: 2.5;
+  fill: none;
+  transition: stroke 0.3s ease;
+}
+
+.vhs-rewind:hover svg {
+  stroke: #ff6b6b;
+  animation: rewind-pulse 1s ease-in-out infinite;
+}
+
+@keyframes rewind-pulse {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-2px); }
+}
+
+/* Glowing tape effect */
+.vhs-rewind::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 10%;
+  width: 80%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #e94560, transparent);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.vhs-rewind:hover::after {
+  opacity: 1;
+  animation: tape-glow 2s ease-in-out infinite;
+}
+
+@keyframes tape-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* Page header with VHS button */
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.page-header .vhs-rewind {
+  flex-shrink: 0;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #1a1a2e 0%, #e94560 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Loss.backward specific styles */
+.loss-backward-header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  margin: -1rem -1rem 2rem -1rem;
+  border-radius: 0 0 24px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loss-backward-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 20%, rgba(233, 69, 96, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+}
+
+.loss-backward-title {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffffff 0%, #e94560 50%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.loss-backward-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Archive list styling */
+.archive-list {
+  list-style: none;
+  padding: 0;
+}
+
+.archive-item {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.archive-item:hover {
+  background: rgba(233, 69, 96, 0.05);
+  border-color: rgba(233, 69, 96, 0.2);
+  transform: translateX(4px);
+}
+
+.archive-date {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #e94560;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.archive-link {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.archive-link:hover {
+  color: #e94560;
+}
+
+.archive-excerpt {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.75rem 0 0;
+  line-height: 1.6;
+}
+
+.post-tags-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.skill-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: rgba(233, 69, 96, 0.15);
+  color: #e94560;
+  border: 1px solid rgba(233, 69, 96, 0.3);
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+.skill-chip:hover {
+  background: rgba(233, 69, 96, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Table styling for pages */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+th {
+  font-weight: 600;
+  color: #e94560;
+  background: rgba(233, 69, 96, 0.1);
+}
+
+tr:hover td {
+  background: rgba(233, 69, 96, 0.03);
+}
+
+code {
+  background: rgba(233, 69, 96, 0.1);
+  color: #e94560;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #e94560;
+  margin-right: 0.5rem;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f23;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #e94560, #00d4ff);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff6b6b, #00e6ff);
+}
+
+/* Selection */
+::selection {
+  background: rgba(233, 69, 96, 0.3);
+  color: #fff;
+}
+
+/* Focus states */
+a:focus, button:focus, .vhs-rewind:focus {
+  outline: 2px solid #e94560;
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .vhs-rewind,
+  .vhs-rewind svg,
+  .vhs-rewind::before,
+  .vhs-rewind::after,
+  .archive-item {
+    animation: none !important;
+    transition: none !important;
+  }
+}

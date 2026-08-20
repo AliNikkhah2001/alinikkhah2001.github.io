@@ -32,11 +32,17 @@ header_pages:
   - contact.md
   - blog.md
   - research.md
+  - loss-backward.md
+  - ai-ml.md
+  - projects.md
+  - books.md
+  - movies.md
+  - wishes.md
 
 # Optional: show post excerpts on the home page
 show_excerpts: true
 
-# Housekeeping: don’t ship these into _site
+# Housekeeping: don't ship these into _site
 exclude:
   - Gemfile
   - Gemfile.lock
