@@ -38,6 +38,7 @@ header_pages:
   - books.md
   - movies.md
   - wishes.md
+  - themes.md
 
 # Optional: show post excerpts on the home page
 show_excerpts: true
