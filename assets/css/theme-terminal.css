@@ -1,0 +1,12 @@
+/* Theme: Terminal / Hacker — monospace, green on black */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+body.theme-terminal { font-family: 'JetBrains Mono', monospace; background: #0a0e0a; color: #33ff33; }
+body.theme-terminal .site-header { background: #0a0e0a; border-color: #33ff33; }
+body.theme-terminal a { color: #33ff33; text-decoration: underline; text-underline-offset: 3px; }
+body.theme-terminal .site-title::before { content: '> '; color: #33ff33; }
+body.theme-terminal .loss-backward-header { background: #0d1a0d !important; border: 1px solid #33ff33; }
+body.theme-terminal .loss-backward-title { background: none !important; -webkit-text-fill-color: #33ff33 !important; font-family: 'JetBrains Mono', monospace; }
+body.theme-terminal .loss-backward-subtitle { color: #88cc88 !important; }
+body.theme-terminal .archive-item { background: #0d1a0d; border-color: #1a3a1a; color: #88cc88; }
+body.theme-terminal table th { background: #1a3a1a; color: #33ff33; }
+body.theme-terminal code { background: #1a3a1a; color: #33ff33; }

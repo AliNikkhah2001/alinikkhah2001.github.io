@@ -1,7 +1,95 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+@import "minima";
+
+/* ===== Custom styles for alinikkhah2001.github.io ===== */
+
+/* VHS-style backward button for loss.backward logo */
+.vhs-rewind {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(145deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  border: 2px solid #e94560;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(233, 69, 96, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+.vhs-rewind::before {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%; width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(233, 69, 96, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+.vhs-rewind:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 8px 25px rgba(233, 69, 96, 0.5), inset 0 1px 0 rgba(255,255,255,0.15); border-color: #ff6b6b; }
+.vhs-rewind:hover::before { left: 100%; }
+.vhs-rewind:active { transform: translateY(0) scale(0.98); }
+.vhs-rewind svg { width: 28px; height: 28px; stroke: #e94560; stroke-width: 2.5; fill: none; transition: stroke 0.3s ease; }
+.vhs-rewind:hover svg { stroke: #ff6b6b; animation: rewind-pulse 1s ease-in-out infinite; }
+@keyframes rewind-pulse { 0%,100%{transform:translateX(0)} 50%{transform:translateX(-2px)} }
+.vhs-rewind::after {
+  content: ''; position: absolute; bottom: -2px; left: 10%; width: 80%; height: 3px;
+  background: linear-gradient(90deg, transparent, #e94560, transparent); border-radius: 2px; opacity: 0; transition: opacity 0.3s ease;
+}
+.vhs-rewind:hover::after { opacity: 1; animation: tape-glow 2s ease-in-out infinite; }
+@keyframes tape-glow { 0%,100%{opacity:0.5} 50%{opacity:1} }
+
+/* Loss.backward header */
+.loss-backward-header {
+  text-align: center; padding: 3rem 1rem;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  margin: -1rem -1rem 2rem -1rem; border-radius: 0 0 24px 24px; position: relative; overflow: hidden;
+}
+.loss-backward-header::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 20% 20%, rgba(233,69,96,0.15) 0%, transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(0,212,255,0.1) 0%, transparent 50%);
+  opacity: 0.9; pointer-events: none;
+}
+.loss-backward-title {
+  font-size: 3rem; font-weight: 800;
+  background: linear-gradient(135deg, #fff 0%, #e94560 50%, #00d4ff 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  margin-bottom: 0.5rem; letter-spacing: -0.02em; position: relative;
+}
+.loss-backward-subtitle { font-size: 1.15rem; color: rgba(255,255,255,0.75); max-width: 600px; margin: 0 auto; line-height: 1.6; position: relative; }
+
+/* Archive list */
+.archive-list { list-style: none; padding: 0; }
+.archive-item {
+  padding: 1.25rem; margin-bottom: 1rem; background: #fff; border: 1px solid #e8e8e8; border-radius: 12px; transition: all 0.3s ease;
+}
+.archive-item:hover { border-color: rgba(233,69,96,0.3); transform: translateX(4px); box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.archive-date { display: inline-block; font-size: 0.8rem; font-weight: 600; color: #e94560; margin-bottom: 0.35rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.archive-link { font-size: 1.15rem; font-weight: 600; color: #1a1a2e; text-decoration: none; }
+.archive-link:hover { color: #e94560; }
+.archive-excerpt { color: #666; margin: 0.6rem 0 0; line-height: 1.6; font-size: 0.95rem; }
+.post-tags-inline { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+.skill-chip {
+  display: inline-flex; align-items: center; padding: 0.2rem 0.6rem; font-size: 0.72rem; font-weight: 500;
+  background: rgba(233,69,96,0.1); color: #c0392b; border: 1px solid rgba(233,69,96,0.2); border-radius: 9999px;
+}
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font-size: 0.92rem; }
+th, td { padding: 0.6rem 0.85rem; text-align: left; border-bottom: 1px solid #eee; }
+th { font-weight: 600; color: #1a1a2e; background: #f8f8fa; }
+tr:hover td { background: #fdf2f4; }
+
+/* Theme switcher button */
+.theme-switcher { position: fixed; bottom: 1rem; right: 1rem; z-index: 999; display: flex; gap: 0.35rem; padding: 0.4rem; background: rgba(255,255,255,0.95); border: 1px solid #e8e8e8; border-radius: 999px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); backdrop-filter: blur(8px); }
+.theme-dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.2); cursor: pointer; transition: transform 0.2s; }
+.theme-dot:hover { transform: scale(1.15); }
+.theme-dot[data-theme="vhs"] { background: linear-gradient(135deg, #e94560, #0f0f23); }
+.theme-dot[data-theme="cyberpunk"] { background: linear-gradient(135deg, #00ffcc, #ff00ff); }
+.theme-dot[data-theme="zen"] { background: #8da399; }
+.theme-dot[data-theme="academic"] { background: #c9a86a; }
+.theme-dot[data-theme="terminal"] { background: #00ff41; }
+.theme-dot[data-theme="midnight"] { background: #000; border-color: #e94560; }
+.theme-dot.active { box-shadow: 0 0 0 2px #e94560; }

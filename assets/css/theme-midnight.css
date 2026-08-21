@@ -1,0 +1,9 @@
+/* Theme: Midnight — pure OLED black, single red accent */
+body.theme-midnight { background: #000; color: #e8e8e8; }
+body.theme-midnight .site-header { background: #000; border-color: #222; }
+body.theme-midnight a { color: #e94560; }
+body.theme-midnight .loss-backward-header { background: #0a0a0a !important; border: 1px solid #222; }
+body.theme-midnight .archive-item { background: #0a0a0a; border-color: #222; }
+body.theme-midnight .post-tags-inline .skill-chip { background: #1a0a0e; border-color: #33111a; }
+body.theme-midnight table th { background: #111; color: #e94560; }
+body.theme-midnight code { background: #111; }
