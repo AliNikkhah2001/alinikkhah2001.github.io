@@ -24,7 +24,7 @@ hero:
     - label: "Location"
       detail: "Tehran, Iran · Remote-friendly"
     - label: "Domains"
-      detail: "Agentic ML · Clinical AI · Multimodal RAG"
+      detail: "Agentic AI · Graph RAG · LLM Serving"
     - label: "Contact"
       detail: "+98 991 296 3951"
 focus: |-
@@ -52,6 +52,32 @@ capabilities:
       - "Graduate instruction support across NLP, Generative Models, and Deep Learning"
       - "Collaborations with Trinity College Dublin, UBC, and L3S on multimodal research"
 experience:
+  - period: "Apr 2026 – Present"
+    role: "ML Engineer — Self-Hosted Graph RAG Assistant"
+    org: "Iran Credit Scoring Bureau"
+    location: "Tehran, Iran"
+    work_model: "Full-time · On-site"
+    summary: >-
+      Self-hosted Graph RAG company assistant for national credit scoring—Neo4j knowledge graph fused with vector
+      retrieval, self-hosted open-weight LLM runtime on GPU, and tool-calling agents with hallucination guardrails.
+    details:
+      - "Architected Graph RAG assistant: Neo4j knowledge graph + vector retrieval grounding analyst queries with citations over credit-scoring domain data."
+      - "Ran self-hosted open-weight LLMs (vLLM/TGI) on GPU; profiled and optimised runtime (KV-cache, batching, AWQ/GPTQ quantization) to cut per-token latency and memory."
+      - "Implemented Neo4j tool-calls (Cypher generation + schema-aware retrieval) so the agent traverses the graph instead of hallucinating structured facts."
+      - "Added hallucination guardrails—retrieval grounding, citation enforcement, deterministic fallback—for a regulated financial environment."
+    skills:
+      - Neo4j
+      - Cypher
+      - Graph RAG
+      - LangGraph
+      - LangChain
+      - FAISS
+      - vLLM
+      - TGI
+      - AWQ / GPTQ
+      - GPU Optimization
+      - FastAPI
+      - Kubernetes
   - period: "Sep 2025 – Nov 2025"
     role: "Senior Data Scientist"
     org: "Turquoise Digital"
@@ -297,6 +323,10 @@ experience:
       - PostgreSQL
       - Docker
 education:
+  - school: "Sharif University of Technology"
+    credential: "M.Eng. Artificial Intelligence"
+    years: "2026 – Present"
+    detail: "Research focus: LLM reasoning and hallucination mitigation"
   - school: "Sharif University of Technology"
     credential: "B.Sc. Electrical & Electronics Engineering"
     years: "2020 – 2024"
@@ -553,6 +583,9 @@ loss_backward:
     <article class="folio-panel">
       <h3>{{ edu.school }}</h3>
       <p><strong>{{ edu.credential }}</strong><br />{{ edu.years }}</p>
+      {%- if edu.detail -%}
+      <p class="folio-panel-subtitle"><em>{{ edu.detail }}</em></p>
+      {%- endif -%}
     </article>
     {%- endfor -%}
   </div>
