@@ -21,25 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-          bundler-cache: false
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Install Jekyll + plugins
-        run: |
-          gem install jekyll jekyll-remote-theme jekyll-feed jekyll-seo-tag bundler
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
 
-      - name: Build site
+      - name: Install gems
+        run: bundle install
+
+      - name: Build with Jekyll (bundler)
         run: |
-          jekyll build --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+          JEKYLL_ENV=production bundle exec jekyll build --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
