@@ -1,8 +1,0 @@
-/* Theme: Academic / Paper — serif, paper texture, footnotes */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@400;600&display=swap');
-body.theme-academic { font-family: 'Crimson Pro', 'Source Serif Pro', Georgia, serif; background: #fefefe; color: #1a1a1a; line-height: 1.75; }
-body.theme-academic h1, body.theme-academic h2, body.theme-academic h3 { font-family: 'Crimson Pro', serif; }
-body.theme-academic .site-title { font-family: 'Crimson Pro', serif; letter-spacing: -0.02em; }
-body.theme-academic .loss-backward-header { background: #fdf6ec !important; border: 1px solid #e8dcc6; }
-body.theme-academic .loss-backward-title { background: none !important; -webkit-text-fill-color: #1a1a1a !important; font-family: 'Crimson Pro', serif; }
-body.theme-academic .archive-item { background: #fffef9; border-color: #e8dcc6; }

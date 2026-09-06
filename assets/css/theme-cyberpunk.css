@@ -1,8 +1,0 @@
-/* Theme: Cyberpunk / Neon — high contrast, glitch, neon cyan/magenta */
-:root { --accent: #00ffcc; --accent2: #ff00ff; --bg: #0a0a12; }
-body.theme-cyberpunk { background: #0a0a12; color: #e0e0ff; }
-body.theme-cyberpunk .site-header { border-top-color: var(--accent) !important; border-bottom: 1px solid rgba(0,255,204,0.2); }
-body.theme-cyberpunk a { color: var(--accent); }
-body.theme-cyberpunk .loss-backward-header { background: linear-gradient(135deg, #0a0a12 0%, #1a0033 50%, #003333 100%) !important; }
-body.theme-cyberpunk .archive-item { background: #111122; border-color: rgba(0,255,204,0.15); }
-body.theme-cyberpunk table th { background: rgba(0,255,204,0.08); color: var(--accent); }

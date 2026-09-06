@@ -11,7 +11,7 @@ baseurl: ""   # keep empty for a personal site at USERNAME.github.io
 remote_theme: "jekyll/minima@v2.5.0"
 
 minima:
-  skin: antique
+  skin: classic
   date_format: "%b %Y"
 
 # Plugins needed by Minima and GitHub Pages

@@ -5,13 +5,7 @@ permalink: /loss-backward/
 ---
 
 <div class="loss-backward-header">
-  <div class="vhs-rewind" aria-label="loss.backward - rewind to learn">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <polygon points="11,18 5,12 11,6" />
-      <polygon points="22,18 16,12 22,6" />
-    </svg>
-  </div>
-  <h1 class="loss-backward-title">loss.backward</h1>
+  <h1 class="loss-backward-title"><span class="prompt">$</span> loss.backward()</h1>
   <p class="loss-backward-subtitle">
     A lab notebook for the practical side of AI/ML systems work. 
     Every entry dissects a production lesson—so other teams can reuse the scaffolding, not just the headlines.
@@ -41,9 +35,8 @@ permalink: /loss-backward/
   {%- endfor -%}
 </ul>
 {%- else -%}
-<div style="text-align: center; padding: 3rem; color: rgba(255,255,255,0.5);">
-  <div class="vhs-rewind" style="margin: 0 auto 1.5rem;"></div>
-  <p style="font-size: 1.25rem;">No loss.backward entries published yet.</p>
-  <p>Subscribe via <a href="/feed.xml">RSS</a> to get updates.</p>
+<div class="loss-backward-header">
+  <p class="loss-backward-subtitle">No loss.backward entries published yet.</p>
+  <p class="loss-backward-subtitle">Subscribe via <a href="/feed.xml">RSS</a> to get updates.</p>
 </div>
 {%- endif -%}
