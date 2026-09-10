@@ -25,6 +25,10 @@ How to read these pages: each variant lists **ATS parsing** (sections, keywords,
 
 [Position-by-position guide](/cv-review/roles/) — what each role covered, in plain language, with the evidence checklist behind every claim.
 
+## Theme gallery
+
+[Compare all 9 variants in 10 LaTeX themes](/cv-review/themes/) — 90 rendered previews with full PDFs.
+
 ## Sample project write-ups
 
 [Sample case studies](/cv-review/sample-projects/) — illustrative write-up templates per job title showing how work is documented: scope, deliverables, and proof. Templates only; swap in verified numbers before sending anywhere.
